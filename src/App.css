@@ -1,0 +1,25 @@
+:root {
+  font-family: Fira Code, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  margin: 150px auto;
+  width: 800px;
+}
+
+.span {
+  display: block;
+  width: 800px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #3d3d3d;
+}

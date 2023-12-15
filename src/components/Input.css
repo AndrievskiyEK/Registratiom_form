@@ -1,0 +1,59 @@
+.input {
+  padding-left: 20px;
+  width: 800px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #3d3d3d;
+  font-family: Fira Code;
+  font-size: 16px;
+  background: #242424;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #7f7f7f;
+  font-family: Fira Code;
+  font-size: 16px;
+}
+
+.input:focus {
+  outline: none;
+  caret-color: #7f7f7f;
+  border: 1px solid #4b72c2;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  color: #7f7f7f;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #3d3d3d;
+  background: #242424;
+}
+
+.checkbox:checked {
+  background: #4b72c2;
+}
+
+.checkbox:checked::after {
+  content: "✓";
+  color: #fff;
+}
+
+.checkbox:hover {
+  border: 1px solid #4b72c2;
+}

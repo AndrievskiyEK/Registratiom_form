@@ -1,0 +1,17 @@
+.link-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.link-description {
+  color: #7f7f7f;
+  font-family: Fira Code;
+  font-size: 16px;
+}
+.link {
+  text-decoration: none;
+  color: #4b72c2;
+  font-family: Fira Code;
+  font-size: 16px;
+}
